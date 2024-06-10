@@ -1,0 +1,54 @@
+/* Home.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.movie-selection-title {
+    color:white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.movie-selection .movie-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.movie-selection .movie-card:hover {
+    transform: translateY(-10px);
+}
+
+.movie-selection .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.movie-selection .card-body {
+    text-align: center;
+}
+
+.movie-selection .card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.movie-selection .card-text {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.movie-selection .btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 0.9em;
+}

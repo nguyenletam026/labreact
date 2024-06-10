@@ -1,0 +1,49 @@
+/* Navigation.scss */
+
+.custom-navbar {
+  background-color: transparent; /* Transparent background */
+  padding: 10px 20px;
+  box-shadow: none; /* Remove shadow */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.custom-navbar .navbar-brand img {
+  border-radius: 50%; /* Make the logo circular */
+}
+
+.nav-link {
+  color: hsl(0, 0%, 100%); /* Dark gray text */
+  font-size: 1.1em;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 10px; /* Rounded corners for links */
+}
+
+.nav-link:hover, .nav-link.active {
+  background-color: #17a2b8; /* Background color on hover */
+  color: white; /* White text on hover */
+}
+
+.custom-button {
+  background-color: #17a2b8; /* Bright cyan background */
+  color: white; /* White text */
+  font-weight: bold;
+  padding: 5px 15px;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 5px; /* Rounded corners for buttons */
+}
+
+.custom-button:hover {
+  background-color: #138496; /* Slightly darker cyan */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
